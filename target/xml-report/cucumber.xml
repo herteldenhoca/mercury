@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.598">
+    <testcase classname="US001  Hr mercury sayfasina login" name="Valid cridentiallarla access saglanmali" time="45.932">
+        <system-out><![CDATA[Given Kullanici hr mercury ana sayfasina gider..............................passed
+And Kullanci username textbox a valid bir username girer....................passed
+And Kullanici password textbox a valid bir username girer...................passed
+And Kullanici login butonuna basar..........................................passed
+Then Kullanici giris yaptigini dogrular.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

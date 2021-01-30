@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T14:14:24.648Z",
+        "line": 3,
+        "name": "Valid cridentiallarla access saglanmali",
+        "description": "",
+        "id": "us001--hr-mercury-sayfasina-login;valid-cridentiallarla-access-saglanmali",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11344348800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanici hr mercury ana sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.HrMercuryStepDefinitions.kullaniciHrMercuryAnaSayfasinaGider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361978500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanci username textbox a valid bir username girer",
+            "match": {
+              "location": "stepdefinitions.HrMercuryStepDefinitions.kullanciUsernameTextboxAValidBirUsernameGirer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235986300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici password textbox a valid bir username girer",
+            "match": {
+              "location": "stepdefinitions.HrMercuryStepDefinitions.kullaniciPasswordTextboxAValidBirUsernameGirer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124993100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.HrMercuryStepDefinitions.kullaniciLoginButonunaBasar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33612064400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici giris yaptigini dogrular",
+            "match": {
+              "location": "stepdefinitions.HrMercuryStepDefinitions.kullaniciGirisYaptiginiDogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "US001  Hr mercury sayfasina login",
+    "description": "",
+    "id": "us001--hr-mercury-sayfasina-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ornek.feature",
+    "tags": []
+  }
+]
